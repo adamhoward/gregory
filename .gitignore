@@ -5,3 +5,4 @@ gregory.synctex.gz
 .lein-deps-sum
 .lein-failures
 lib/
+*.pyc

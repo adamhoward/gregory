@@ -20,5 +20,7 @@ Some of the things I get to play with:
 * Iteration v. recursion v. declarativityness
 
 ## Usage
-For Java, use `> mvn test`  
-For Clojure, use `> lein repl`
+For Java, run `mvn test`  
+For Clojure, run `lein repl`
+For Python, cd to `src/main/python/gregory` and run `python -i GregoryTests.py`
+
