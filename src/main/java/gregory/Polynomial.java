@@ -1,21 +1,13 @@
-/**
- * Copyright (c) 2010 Momentx Corporation
- */
 package gregory;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-/**
- * DOC: THIS CLASS HAS NO COMMENT!
- *
- * @author adam.howard
- */
 public class Polynomial {
 
 	private ArrayList<Integer> p = new ArrayList<Integer>();
 
-	public Polynomial(Integer ... coefficients) {
+	public Polynomial(Integer... coefficients) {
 		p.addAll(Arrays.asList(coefficients));
 	}
 
@@ -25,10 +17,6 @@ public class Polynomial {
 
 	public Integer get(int index) {
 		return p.get(index);
-	}
-
-	public void MutatePush(Integer x) {
-		p.add(x);
 	}
 
 	public Polynomial times(Polynomial rhs) {

@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2010 Momentx Corporation
- */
 package gregory;
 
 import static org.junit.Assert.assertEquals;
@@ -8,11 +5,7 @@ import static org.junit.Assert.assertEquals;
 import java.util.Arrays;
 
 import org.junit.Test;
-/**
- * DOC: THIS CLASS HAS NO COMMENT!
- *
- * @author adam.howard
- */
+
 public class GregoryTest extends Gregory {
 
 	private Integer[] squaresSeq = {0, 1, 4, 9, 16, 25, 36, 49, 64, 81};
@@ -46,16 +39,16 @@ public class GregoryTest extends Gregory {
 	@Test
 	public void testFact() {
 		Gregory g = new Gregory();
-		Integer f = g.fact(8);
+		Integer f = g.factorial(8);
 		assertEquals((Integer)40320, f);
 	}
 
 	@Test
 	public void testFactPow() {
 		Gregory g = new Gregory();
-		Polynomial p = g.fact_pow(4);
+		Polynomial p = g.factorialPower(4);
 		assertEquals(new Polynomial(0, -6, 11, -6, 1), p);
-		System.out.println("fact_pow(4) -> " + p);
+		System.out.println("factorialPower(4) -> " + p);
 		System.out.println();
 	}
 
