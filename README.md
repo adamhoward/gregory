@@ -21,6 +21,6 @@ Some of the things I get to play with:
 
 ## Usage
 For Java, run `mvn test`  
-For Clojure, run `lein repl`
+For Clojure, run `lein repl`  
 For Python, cd to `src/main/python/gregory` and run `python -i GregoryTests.py`
 
