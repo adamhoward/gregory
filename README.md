@@ -16,11 +16,12 @@ Some of the things I get to play with:
 * Implement factorial
 * Implement a new datatype
 * Functions to operate on that new datatype
-* Syntatcitc sugar for data structures
+* Syntactic sugar for data structures
 * Iteration v. recursion v. declarativityness
 
 ## Usage
 For Java, run `mvn test`  
 For Clojure, run `lein repl`  
-For Python, cd to `src/main/python/gregory` and run `python -i GregoryTests.py`
+For Python, cd to `src/main/python/gregory` and run `python -i GregoryTests.py`  
+For Ruby, cd to `src/main/ruby/gregory` and run `ruby gregory_tests.rb`  
 
